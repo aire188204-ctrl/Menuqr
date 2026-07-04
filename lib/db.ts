@@ -1,6 +1,4 @@
-import { sql } from 'postgres';
-import postgres from 'postgres';
-
+import sql from 'postgres';
 // Initialize the postgres client with connection pooling
 const dbUrl = process.env.DATABASE_URL;
 
