@@ -44,8 +44,8 @@ export default function RootLayout({
       <body className="antialiased bg-background text-foreground">
         <ErrorBoundary>
           {children}
-          {process.env.NODE_ENV === 'production' && <Analytics />}
         </ErrorBoundary>
+        <Analytics />
       </body>
     </html>
   )
